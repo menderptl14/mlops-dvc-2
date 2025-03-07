@@ -12,6 +12,9 @@ df = pd.DataFrame(data)
 new_raw = {'name':'gf1','age':14,'city':'delhi'}
 df.loc[len(df.index)] = new_raw
 
+new_raw2 = {'name':'gf2','age':16,'city':'semari'}
+df.loc[len(df.index)] = new_raw2
+
 data_dir = 'data'
 
 os.makedirs(data_dir,exist_ok=True)
